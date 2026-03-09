@@ -1,0 +1,31 @@
+# Network Attack Surface Analysis
+
+This project examines commonly targeted network services and explains why they represent potential attack vectors.
+
+## Commonly Targeted Ports
+
+### Port 22 – SSH
+Secure Shell allows remote administration of systems.  
+Attackers frequently target SSH services with brute-force login attempts.
+
+### Port 21 – FTP
+FTP services can expose credentials if misconfigured and are often targeted during reconnaissance.
+
+### Port 23 – Telnet
+Telnet transmits data in plaintext and is considered insecure.  
+Attackers often scan for exposed Telnet services.
+
+### Port 25 – SMTP
+SMTP servers may be targeted for spam relaying or email-based attacks.
+
+### Port 3389 – RDP
+Remote Desktop Protocol is a common entry point for attackers attempting credential attacks or ransomware deployment.
+
+## Security Mitigations
+
+Common security controls used to reduce attack surface include:
+
+- Firewalls and network segmentation
+- Multi-factor authentication
+- Rate limiting login attempts
+- Intrusion detection systems
